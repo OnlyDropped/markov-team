@@ -39,6 +39,7 @@ body {
 ul[class],
 ol[class] {
   list-style: none;
+  padding: 0;
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
@@ -120,6 +121,7 @@ body {
   font-weight: 500;
   font-size: 72px;
   line-height: 88px;
+  color: #000;
 }
 
 .header-top {
@@ -173,7 +175,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 41px 26px 42px;
+  padding: 20px 41px 26px 42px !important;
 }
 
 .header-menu__item + .header-menu__item {
@@ -222,7 +224,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 37px 0 53px;
+  padding: 37px 0 53px !important;
 }
 
 .header-nav__item + .header-nav__item {
@@ -283,6 +285,298 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.slider-banner {
+  background: #eaeaea;
+}
+
+.slider-banner__inner {
+  padding: 63px 142px 96px 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider-banner__title {
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 176px;
+  color: #000;
+}
+
+.slider-banner__subtitle {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 88px;
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.slider-banner__link {
+  display: inline-block;
+  background: #c4c4c4;
+  border-radius: 91px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  padding: 10px 38px 14px;
+}
+
+.slider-banner__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  margin-top: 24px;
+}
+
+.category {
+  padding: 126px 0;
+}
+
+.category__title {
+  margin-left: 51px;
+  margin-bottom: 114px;
+}
+
+.category__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 37px;
+}
+
+.category__item {
+  max-width: 544px;
+  width: 100%;
+  background: #ffff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  padding-top: 54px;
+}
+
+.category__images {
+  margin: 0 auto;
+}
+
+.category__item-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000;
+  margin-bottom: 6px;
+  margin-left: 54px;
+}
+
+.category__name {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  margin-left: 57px;
+}
+
+.category__banner {
+  max-width: 1692px;
+  width: 100%;
+  background: #fefefe;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  margin: 38px auto 0px;
+  padding: 69px 56px 22px 131px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.category__content-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000;
+}
+
+.category__content-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  margin: 14px 0 34px;
+}
+
+.category__list-item + .category__list-item {
+  margin-top: 14px;
+}
+
+.category__list-item {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000;
+  padding-left: 36px;
+  position: relative;
+}
+
+.category__list-item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #373737;
+}
+
+.category__more {
+  background: #f2f2f2;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 82px;
+  padding: 14px 43px 21px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000;
+  display: inline-block;
+  margin-top: 46px;
+}
+
+.popular {
+  padding: 90px 0 149px;
+  background: #eaeaea;
+}
+
+.popular__title {
+  margin-left: 79px;
+  margin-bottom: 80px;
+}
+
+.popular__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popular__item {
+  max-width: 544px;
+  width: 100%;
+  height: 754px;
+}
+
+.popular__content {
+  width: 100%;
+  height: 613px;
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-top: 91px;
+  padding-bottom: 30px;
+}
+
+.popular__content .popular__slogan {
+  position: absolute;
+  top: 33px;
+  right: 30px;
+}
+
+.popular__content .popular__sale {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+}
+
+.popular__content .popular__delivery {
+  position: absolute;
+  top: 43px;
+  right: 23px;
+}
+
+.popular__images {
+  margin: auto;
+}
+
+.popular__slogan, .popular__sale, .popular__delivery {
+  background: #eaeaea;
+  border-radius: 53px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000;
+  padding: 6px 22px;
+}
+
+.popular__info {
+  padding-top: 24px;
+}
+
+.popular__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.popular__name {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000;
+}
+
+.popular__price {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000;
+}
+
+.popular__add {
+  display: inline-block;
+  margin-top: auto;
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  padding: 5px 32px 8px 25px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000;
 }
 
 .designer {
