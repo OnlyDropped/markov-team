@@ -5,6 +5,7 @@ $('.example-slider').slick({
   prevArrow: '<button type="button" class="slick-prev"><img src="img/slider/arrow-prev.jpg" alt=""></button>',
   nextArrow: '<button type="button" class="slick-next"><img src="img/slider/arrow-next.svg" alt=""></button>',
 });
+
 $('.slider').slick({
   arrows: false,
   autoplay: true,
