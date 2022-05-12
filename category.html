@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="header-top__work">Режим работы: 10.00-20.00</div>
+          <div class="header-top__call">
+            Телефон:
+            <a class="header-top__tel" href="tel:+74993004949"
+              >8(499)300-49-49</a
+            >
+            Заказать обратный звонок
+          </div>
+          <div class="header-top__email">
+            Почта:
+            <a class="header-top__mail" href="mailto:info@markov-tram.ru"
+              >info@markov-tram.ru</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="header-menu">
+        <div class="container">
+          <div class="header-menu__wrapper">
+            <ul class="header-menu__list">
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">О нас</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Доставка</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Оплата</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Отзывы</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Вопросы</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">ОПТ</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Услуги</a>
+              </li>
+            </ul>
+            <div class="header-menu__contacts">
+              <div class="header-menu__language">Язык сайта: EN/RU</div>
+              <a class="header-menu__tel" href="#">8(499)300-49-49</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-nav">
+        <div class="container">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Каталог одежды</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Экипировка</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Форма под заказ</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--design" href="#"
+                >Создать свой дизайн</a
+              >
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--cart" href="#">
+                <div class="header-nav__images">
+                  <img src="img/icons/cart.png" alt="" />
+                  <div class="header-nav__num">4</div>
+                </div>
+                Корзина
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      
+      <section class="category-catalog">
+        <div class="container">
+          <div class="category-catalog__inner">
+
+            <div class="category-filter">
+              <form class="category-filter__form" action="#">
+                <div class="category-filter__item">
+                  <h6 class="category-filter__title">Пол:</h6>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Женские
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Мужские
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Унисекс
+                  </label>
+                </div>
+
+                <div class="category-filter__item">
+                  <h6 class="category-filter__title">Тип:</h6>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    С рукавом
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Без рукава
+                  </label>
+                </div>
+
+                <div class="category-filter__item">
+                  <h6 class="category-filter__title">Цвет:</h6>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Белый
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Черный
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Серый
+                  </label>
+                  <a class="category-filter__more" href="#">Посмотреть все</a>
+                </div>
+
+                <div class="category-filter__item">
+                  <h6 class="category-filter__title">Размер:</h6>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    40-42
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    42-44
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    44-46
+                  </label>
+                  <a class="category-filter__more" href="#">Посмотреть все</a>
+                </div>
+
+                <div class="category-filter__item">
+                  <h6 class="category-filter__title">Принт:</h6>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Животные
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Страны и флаги
+                  </label>
+                  <label class="category-filter__label">
+                    <input class="category-filter__input" type="checkbox" />
+                    <div class="category-filter__checkbox">
+                      <svg class="category-filter__checkmark checkmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#fff" d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+                      </svg>
+                    </div>
+                    Женские принт
+                  </label>
+                  <a class="category-filter__more" href="#">Посмотреть все</a>
+                </div>
+
+              </form>
+            </div>
+
+            <div class="category-wrap">
+
+              <div class="category-wrap__inner">
+                <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+              
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+
+              <div class="category-wrap__item">
+                <div class="category-wrap__content">
+                  <img class="category-wrap__img" src="img/category/1.png" alt="clothes">
+                </div>
+                <div class="category-wrap__info">
+                  <div class="category-wrap__title">Мужская футболка</div>
+                  <div class="category-wrap__size">
+                    Размер:
+                    <div class="category-wrap__size-number">40-60</div>
+                  </div>
+                  <div class="category-wrap__price">
+                    Цена:
+                    <div class="category-wrap__price-num">
+                      150 ₽ 
+                    </div>
+                  </div>
+                  <a class="category-wrap__order" href="#">В корзину</a>
+                </div>
+              </div>
+              </div>
+
+              <a class="category-wrap__show" href="#">Показать ещё</a>
+
+              <div class="category-pagination">
+                <a class="category-pagination__prev" href="#">
+                  <
+                </a>
+                <ul class="category-pagination__list">
+                  <li class="category-pagination__item">
+                    <a class="category-pagination__link" href="#">1</a>
+                  </li>
+                  <li class="category-pagination__item">
+                    <a class="category-pagination__link" href="#">2</a>
+                  </li>
+                  <li class="category-pagination__item">
+                    <a class="category-pagination__link" href="#">3</a>
+                  </li>
+                  <li class="category-pagination__item">
+                    <a class="category-pagination__link" href="#">...</a>
+                  </li>
+                  <li class="category-pagination__item">
+                    <a class="category-pagination__link" href="#">45</a>
+                  </li>
+                </ul>
+                <a class="category-pagination__next" href="#">
+                  >
+                </a>
+              </div>
+
+              <div class="category-designer designer__wrap">
+                <img class="category-designer__img" src="img/category/1.png" alt="">
+                <div class="designer__info">
+                <h4 class="designer__title">Не нашли подходящий товар?</h4>
+                <p class="designer__subtitle">Создайте его сами.</p>
+                <ul class="designer__list">
+                  <li class="designer__item">Воспользуйтесь нашим онлайн-конструктором одежды</li>
+                  <li class="designer__item">и создайте товар на свой вкус. </li>
+                  <li class="designer__item">Вы можете добавить фото, текст или принт.</li>
+                  <li class="designer__item">А мы реализуем вашу идею и напечатаем дизайн на одежде.</li>
+                </ul>
+                <a class="designer__link" href="#">Создать в конструкторе</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top__items">
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Оплата</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Возврат</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Доставка</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Вопросы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__items">
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">О нас</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Услуги</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Отзывы</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Оптовый отдел</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__items">
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Каталог</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Размерная сетка</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Комнадная форма</a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">Создание дизайна формы </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__items footer-top__items--last">
+            <a class="footer-top__tel" href="#">8(499)300-49-49</a>
+            <a class="footer-top__email" href="#">info@markov-team.ru</a>
+            <div class="footer-top__wrap">
+              <div class="footer-top__content"></div>
+              <div class="footer-top__content"></div>
+              <div class="footer-top__content"></div>
+              <div class="footer-top__content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom__inner">
+            <ul class="footer-bottom__list">
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Футбольная форма</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Волейбольная форма</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#"
+                  >Гимнастический купальник</a
+                >
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Гиревая форма</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#"
+                  >Тяжелоатлетический костюм</a
+                >
+              </li>
+            </ul>
+            <ul class="footer-bottom__items">
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Майки</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Футболки</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Леггинсы</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Велосипедки</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Маски</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Ремни</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Штангетки</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="footer-bottom__link" href="#">Магнезия</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
