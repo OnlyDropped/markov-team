@@ -14,3 +14,40 @@ $('.slider').slick({
   cssEase: 'linear',
   autoplaySpeed: 2000
 });
+
+
+$('.tovar-thumb').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  //fade: true,
+  asNavFor: '.tovar-preview'
+});
+$('.tovar-preview').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  //autoplay: true,
+  //autoplaySpeed: 2000,
+  asNavFor: '.tovar-thumb',
+  vertical: true,
+	//infinite: true,
+	verticalSwiping: true,
+  arrows: false,
+  //dots: true,
+  //centerMode: true,
+  focusOnSelect: true
+});
+
+$('.expert-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+});
+
+
+/*89264694100 евгений 20450
+
+215/65/16c sailun F7769735
+
+малая семеновская 3а
+*/
+

@@ -799,6 +799,307 @@
     line-height: 54px;
   }
 }
+.tovar {
+  padding: 42px 0 94px;
+}
+.tovar-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tovar-slider {
+  width: 922px;
+  height: 721px;
+  display: flex;
+  justify-content: space-between;
+}
+.tovar-preview {
+  width: 166px;
+  height: 72px;
+  background-color: violet;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  height: 721px;
+  &__item {
+    width: 166px;
+    height: 166px;
+  }
+  &__item-img {
+    width: 166px;
+    height: 166px;
+    object-fit: cover;
+  }
+  &__item.slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
+.tovar-thumb {
+  margin-left: 35px;
+  width: 721px;
+  height: 721px;
+  &__item {
+    width: 721px;
+    height: 721px;
+  }
+  &__item-img {
+    width: 721px;
+    height: 721px;
+    object-fit: cover;
+  }
+}
+.tovar-info {
+  max-height: 779px;
+  width: 100%;
+  margin-left: 38px;
+  &__subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    margin-bottom: 9px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000;
+    margin-bottom: 9px;
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  &__new-price {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000;
+  }
+  &__old-price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    margin-left: 34px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 60px;
+      height: 1px;
+      background-color: #000;
+      top: 14px;
+      left: 0;
+    }
+  }
+  &__size,
+  &__color {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  &__form {
+    max-width: 612px;
+    width: 100%;
+    //background: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 19px;
+    margin-bottom: 24px;
+  }
+  &__span {
+    outline: none;
+    transition: 0.2s;
+    position: relative;
+
+    background: #fff;
+    border: 1px solid #000;
+    width: 140px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+  &__checkbox-container + .tovar-info__checkbox-container {
+    margin-left: 13px;
+  }
+  &__label .tovar-info__checkbox:checked + .tovar-info__span {
+    background: #000;
+    color: #fff;
+  }
+  &__checkbox-toggle {
+    border: 1px solid black;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: firebrick;
+    border: none;
+  }
+  &__checkbox-toggle--blue {
+    background: darkgreen;
+  }
+  &__checkbox-toggle--darkmagenta {
+    background: darkmagenta;
+  }
+  &__checkbox-toggle--hotpink {
+    background: hotpink;
+  }
+  &__checkbox-toggle--grey {
+    background: grey;
+  }
+  &__checkbox-toggle--seagreen {
+    background: seagreen;
+  }
+  &__checkbox-toggle--tomato {
+    background: tomato;
+  }
+  &__checkbox-toggle--violet {
+    background: violet;
+  }
+  &__checkbox-toggle--lime {
+    background: lime;
+  }
+  &__checkbox-container .tovar-info__checkbox-toggle:before {
+    transition: 0.5s ease;
+    content: "";
+    position: relative;
+    background: inherit;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.5);
+    background: red;
+    opacity: 0;
+  }
+
+  &__checkbox-container .tovar-info__checkbox-color:checked + .tovar-info__checkbox-toggle:before {
+    //background: red;
+    //background: rgb(189, 233, 28);
+    display: block;
+  }
+  &__checkbox-container .tovar-info__checkbox-color:checked + .tovar-info__checkbox-toggle {
+    border: 3px solid rgb(0, 0, 0);
+  }
+  &__structure {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+  &__cotton {
+    margin-left: 15px;
+  }
+  &__cart {
+    display: inline-block;
+    padding: 17px 92px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000;
+    background: #fff;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    margin-top: 33px;
+  }
+}
+.tovar-description {
+  max-width: 922px;
+  width: 100%;
+  margin-right: auto;
+  padding-left: 201px;
+  margin-top: 41px;
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 21px;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+.expert {
+  padding: 62px 0 102px;
+  &__title {
+    max-width: 1030px;
+    width: 100%;
+    margin-bottom: 84px;
+  }
+}
+.expert-slider {
+  .slick-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .slick-prev.slick-arrow{
+    left: -130px;
+  }
+  .slick-next.slick-arrow{
+    right: 0;
+    right: -90px;
+  }
+  &__item {
+    max-width: 1833px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    padding: 56px 110px 57px;
+    display: flex !important;
+    align-items: center !important;
+  }
+  &__userpik {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    img {
+      width: 290px;
+      height: 290px;
+      object-fit: cover;
+    }
+  }
+  &__info {
+    margin-left: 49px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 28px;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
 .footer-top {
   padding: 61px 0 50px;
   display: flex;

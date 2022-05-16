@@ -25,3 +25,35 @@ body {
   line-height: 88px;
   color: #000;
 }
+
+.breadcrumbs {
+  padding-bottom: 42px;
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item + .breadcrumbs__item {
+    margin-left: 24px;
+  }
+  &__item{
+    position: relative;
+    &::after{
+      position: absolute;
+      content: '';
+      right: -15px;
+      top: 14px;
+      width: 7px;
+      height: 1px;
+      background-color: #000;
+    }
+    &:last-child::after{
+      content: none;
+    }
+  }
+  &__link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+}
