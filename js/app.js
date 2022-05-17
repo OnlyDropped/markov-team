@@ -41,6 +41,9 @@ $('.tovar-preview').slick({
 $('.expert-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
+  centerPadding: true,
+  nextArrow: '<button type="button" class="slick-next"><img src="img/slider-tovar/next.png" alt=""></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/slider-tovar/prev.png" alt=""></button>',
 });
 
 

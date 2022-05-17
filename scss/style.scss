@@ -815,7 +815,7 @@
 .tovar-preview {
   width: 166px;
   height: 72px;
-  background-color: violet;
+  //background-color: violet;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center;
@@ -1046,23 +1046,28 @@
   }
 }
 .expert-slider {
-  .slick-arrow{
+  display: flex !important;
+  justify-content: center !important;
+  .slick-arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    border: none;
+    cursor: pointer;
+    background: transparent;
   }
-  .slick-prev.slick-arrow{
+  .slick-prev.slick-arrow {
     left: -130px;
   }
-  .slick-next.slick-arrow{
+  .slick-next.slick-arrow {
     right: 0;
     right: -90px;
   }
   &__item {
-    max-width: 1833px;
+    max-width: 1800px !important;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto !important;
     background: #fff;
     box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
     border-radius: 36px;
@@ -1074,10 +1079,12 @@
     width: 290px;
     height: 290px;
     border-radius: 50%;
+    display: contents;
     img {
       width: 290px;
       height: 290px;
       object-fit: cover;
+      border-radius: 50%;
     }
   }
   &__info {
@@ -1098,6 +1105,54 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
+  }
+}
+.uniform-banner {
+  background: #eaeaea;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+  }
+  &__title {
+    max-width: 848px;
+    width: 100%;
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 88px;
+  }
+}
+.production {
+  background: #eaeaea;
+  &__wrap {
+    padding: 92px 0 112px 49px;
+  }
+  &__title {
+    max-width: 1127px;
+    width: 100%;
+    margin-bottom: 59px;
+  }
+  &__item + .production__item {
+    margin-top: 22px;
+  }
+  &__item {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 55px;
+    padding-left: 66px;
+    position: relative;
+    &::before{
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 11px;
+      width: 31px;
+      height: 31px;
+      background: #C4C4C4;
+      border-radius: 50%;
+    }
   }
 }
 .footer-top {
