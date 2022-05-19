@@ -1684,13 +1684,228 @@ body {
 
 .production__item::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 11px;
   width: 31px;
   height: 31px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   border-radius: 50%;
+}
+
+.form {
+  padding: 142px 0 102px;
+}
+
+.form__title {
+  margin-left: 42px;
+  margin-bottom: 107px;
+}
+
+.form__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 42px;
+          column-gap: 42px;
+  row-gap: 101px;
+}
+
+.form__item {
+  max-width: 544px;
+  width: 100%;
+}
+
+.form__item:nth-child(4) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.form__item:nth-child(5) {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.form__img {
+  width: 544px;
+  height: 681px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: drop-shadow(2px 4px 27px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 27px rgba(0, 0, 0, 0.25));
+  margin: 0 auto;
+}
+
+.form__info {
+  padding-top: 38px;
+}
+
+.form__info-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000;
+}
+
+.dev-form {
+  padding: 92px 0 132px;
+}
+
+.dev-form__title {
+  margin-left: 49px;
+  margin-bottom: 78px;
+}
+
+.dev-form__banner + .dev-form__banner {
+  margin-top: 35px;
+}
+
+.dev-form__banner {
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  padding: 85px 93px 85px 117px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dev-form__banner .dev-form__title {
+  margin-left: 0px;
+}
+
+.dev-form__banner--clothe {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.dev-form__banner--clothe .dev-form__link {
+  margin-bottom: 22px;
+}
+
+.dev-form__title {
+  width: 744px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.dev-form__description {
+  width: 920px;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000;
+}
+
+.dev-form__description + .dev-form__description {
+  margin-top: 44px;
+}
+
+.dev-form__link {
+  display: inline-block;
+  background: #c4c4c4;
+  border-radius: 56px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000;
+  padding: 15px 56px;
+  margin-top: 37px;
+}
+
+.dev-form__open {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000;
+  margin-top: 38px;
+}
+
+.process {
+  padding: 127px 0 82px;
+}
+
+.process__title {
+  margin-left: 46px;
+  margin-bottom: 82px;
+}
+
+.process__item + .process__item {
+  margin-top: 44px;
+}
+
+.process__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 1649px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.process__images img {
+  width: 287px !important;
+  height: 287px;
+  background: #C4C4C4;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.process__info {
+  width: 1321px;
+  margin-left: 41px;
+}
+
+.process__info .process__title {
+  margin-left: 0;
+}
+
+.process__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000;
+}
+
+.process__num {
+  margin-right: 18px;
+}
+
+.process__text {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000;
+  margin-top: 14px;
 }
 
 .footer-top {
