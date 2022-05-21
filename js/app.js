@@ -47,10 +47,23 @@ $('.expert-slider').slick({
 });
 
 
-/*89264694100 евгений 20450
+$('.professional-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  centerMode: true,
+  //autoplay: true,
+  //autoplaySpeed: 1000
+  nextArrow: '<button type="button" class="slick-next"><img src="img/slider-tovar/next.png" alt=""></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/slider-tovar/prev.png" alt=""></button>',
+  cssEase: 'linear',
+})
 
-215/65/16c sailun F7769735
+$('.example-wrap').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  nextArrow: '<button type="button" class="slick-next"><img src="img/slider-tovar/next.png" alt=""></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/slider-tovar/prev.png" alt=""></button>',
+  cssEase: 'linear',
+})
 
-малая семеновская 3а
-*/
 
