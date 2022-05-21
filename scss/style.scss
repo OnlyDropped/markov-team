@@ -1481,7 +1481,34 @@
     right: -112px;
     margin-left: auto;
     width: fit-content;
-    
+  }
+}
+.efficiently {
+  padding: 129px 0 32px;
+  &__title {
+    margin-left: 95px;
+    margin-bottom: 48px;
+  }
+  &__item + .efficiently__item {
+    margin-top: 48px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  &__text {
+    max-width: 1026px;
+    width: 100%;
+    margin-left: 56px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
   }
 }
 .footer-top {

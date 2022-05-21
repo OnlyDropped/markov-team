@@ -2118,6 +2118,45 @@ body {
   width: fit-content;
 }
 
+.efficiently {
+  padding: 129px 0 32px;
+}
+
+.efficiently__title {
+  margin-left: 95px;
+  margin-bottom: 48px;
+}
+
+.efficiently__item + .efficiently__item {
+  margin-top: 48px;
+}
+
+.efficiently__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.efficiently__img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.efficiently__text {
+  max-width: 1026px;
+  width: 100%;
+  margin-left: 56px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+}
+
 .footer-top {
   padding: 61px 0 50px;
   display: -webkit-box;
