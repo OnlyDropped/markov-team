@@ -66,4 +66,4 @@ $('.example-wrap').slick({
   cssEase: 'linear',
 })
 
-
+/*осталось доработать слайдер в service.html*/
