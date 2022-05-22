@@ -2157,6 +2157,228 @@ body {
   line-height: 49px;
 }
 
+.uniform-wholesale .uniform-banner__title {
+  max-width: 941px;
+  margin-left: 0;
+  margin-bottom: 16px;
+}
+
+.uniform-wholesale .uniform-banner__text {
+  max-width: 941px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 21px;
+}
+
+.uniform-wholesale .uniform-banner__link {
+  display: inline-block;
+  background: #c4c4c4;
+  border-radius: 56px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 61px;
+  padding: 13px 61px 17px 51px;
+}
+
+.wholesale-form {
+  padding-bottom: 54px;
+}
+
+.wholesale-form .form__title {
+  margin-left: 0px;
+}
+
+.features {
+  padding: 112px 0 154px;
+}
+
+.features__title {
+  margin-bottom: 58px;
+}
+
+.features__item + .features__item {
+  margin-top: 58px;
+}
+
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.features__img {
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.features__text {
+  max-width: 963px;
+  width: 100%;
+  margin-left: 71px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.process-whosale__title {
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.work {
+  background: #eeeeee;
+  padding: 80px 0;
+}
+
+.work__text {
+  max-width: 793px;
+  width: 100%;
+  margin: 38px 0px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.work__link {
+  display: inline-block;
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 58px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 18px 43px;
+}
+
+.whosale-review {
+  background: #fff;
+}
+
+.whosale-review .professional__title {
+  margin-left: 0px;
+  margin-bottom: 41px;
+}
+
+.whosale-review .professional-slider__item {
+  background: #fff;
+  -webkit-box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  max-width: 1561px !important;
+  width: 100%;
+  margin: 0 auto !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  padding: 57px 111px;
+  background: #ffffff;
+  box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+}
+
+.whosale-review .slick-track {
+  padding: 20px 0px;
+}
+
+.requisites {
+  padding: 116px 0 125px;
+  background: #eeeeee;
+}
+
+.requisites__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.requisites__title {
+  margin-bottom: 38px;
+}
+
+.requisites__item {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.requisites__map {
+  border-radius: 71px;
+}
+
+.questions {
+  padding: 118px 0 75px;
+}
+
+.questions__title {
+  margin-bottom: 51px;
+}
+
+.questions__input {
+  display: none;
+}
+
+.questions__description {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.questions__input:checked + .questions__label + .questions__description {
+  height: auto;
+  padding: 10px 0;
+}
+
+.questions__accordeon + .questions__accordeon {
+  margin-top: 18px;
+}
+
+.questions__label {
+  padding: 20px 0;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+  background: #eaeaea;
+  border-radius: 90px;
+  padding: 23px 27px 26px 59px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whosale-info {
+  background: #EEEEEE;
+  padding: 86px 91px;
+}
+
 .footer-top {
   padding: 61px 0 50px;
   display: -webkit-box;
