@@ -66,4 +66,16 @@ $('.random__inner').slick({
   prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
   cssEase: 'linear',
 });
-/*осталось доработать слайдер в service.html*/next-arrow
+
+
+
+$('.about-work__slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: true,
+  nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.png" alt=""></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
+  cssEase: 'linear',
+})
+
+/*осталось доработать слайдер в service.html*/
