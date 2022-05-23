@@ -1742,43 +1742,43 @@
   }
   &__item:nth-child(1),
   &__item:nth-child(2) {
-    background: firebrick;
+    //background: firebrick;
     padding-left: 71px;
     padding-right: 71px;
   }
   &__item:nth-child(3) {
-    background: darkgreen;
+    //background: darkgreen;
     padding-left: 57px;
     padding-right: 64px;
     margin-left: 0px;
     margin-right: 0;
   }
   &__item:nth-child(4) {
-    background: hotpink;
+    //background: hotpink;
     padding-left: 48px;
     padding-right: 44px;
   }
   &__item:nth-child(5) {
-    background: rebeccapurple;
+    //background: rebeccapurple;
     padding-left: 55px;
     padding-right: 55px;
     margin-left: 0;
     margin-right: 0;
   }
   &__item:nth-child(6) {
-    background: tomato;
+    //background: tomato;
     padding-left: 54px;
     padding-right: 53px;
   }
   &__item:nth-child(7) {
-    background: violet;
+    //background: violet;
     padding-left: 54px;
     padding-right: 54px;
     margin-left: 0;
     margin-right: 0;
   }
   &__item:nth-child(8) {
-    background: aqua;
+    //background: aqua;
     padding-left: 55px;
     padding-right: 50px;
   }
@@ -1786,29 +1786,42 @@
 .requisites-service {
   background: #fff;
 }
-.example-service {
+.random {
   padding: 46px 0 81px;
-  background: maroon;
-  .example__title{
-    margin-left: 0;
+  //background: maroon;
+  &__title {
     margin-bottom: 89px;
   }
-  &__wrapper{
+  &__inner {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 602px;
+    justify-content: space-between;
+  }
+  &__item + .example-service__item {
+    margin-left: 41px;
   }
   &__item {
     width: 499px;
-    height: 602px;
   }
-  &__img {
+  &__images {
     width: 499px;
     height: 602px;
     object-fit: cover;
     box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
     border-radius: 36px;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -73px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  .slick-arrow.slick-next {
+    right: -73px;
+    margin-left: auto;
+    width: fit-content;
   }
 }
 .footer-top {
