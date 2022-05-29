@@ -78,4 +78,20 @@ $('.about-work__slider').slick({
   cssEase: 'linear',
 })
 
+
+
+$(".star").rateYo({
+    rating: 5
+})
+
+
+$('.review-letters__slider').slick({
+  //lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  cssEase: 'linear',
+  arrows: true,
+  nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.png" alt=""></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
+})
 /*осталось доработать слайдер в service.html*/
