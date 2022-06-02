@@ -4,13 +4,45 @@ $('.example-slider').slick({
   arrows: true,
   prevArrow: '<button type="button" class="slick-prev"><img src="img/slider/arrow-prev.jpg" alt=""></button>',
   nextArrow: '<button type="button" class="slick-next"><img src="img/slider/arrow-next.svg" alt=""></button>',
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 426,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+    {
+      breakpoint: 321,
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+  ]
 });
 
 $('.slider').slick({
   arrows: false,
-  autoplay: true,
-  speed: 500,
-  fade: true,
+  //autoplay: true,
+  //speed: 500,
+  //fade: true,
   cssEase: 'linear',
   autoplaySpeed: 2000
 });
