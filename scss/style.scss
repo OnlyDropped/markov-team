@@ -608,6 +608,9 @@
   //background-color: rgb(211, 174, 174);
   position: relative;
   padding-bottom: 158px;
+  &__btn{
+    display: none;
+  }
   .category-filter {
     position: absolute;
     left: 0;

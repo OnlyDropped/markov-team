@@ -8,6 +8,7 @@
     <title>Document</title>
   </head>
   <body>
+
     <header class="header">
       <div class="container">
         <div class="header-top">
@@ -92,11 +93,18 @@
         </div>
       </div>
     </header>
+   
     <main class="main">
-      
+
+
       <section class="category-catalog">
         <div class="container">
           <div class="category-catalog__inner">
+
+            <a class="category-catalog__btn" href="#">
+              <img src="img/icons/filter.svg" alt="">
+            </a>
+
 
             <div class="category-filter">
               <form class="category-filter__form" action="#">
@@ -600,5 +608,11 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $('.category-catalog__btn').on('click', function() {
+        $('.category-filter').toggleClass('category-filter--active')
+      });
+    </script>
   </body>
 </html>
