@@ -67,7 +67,32 @@ $('.tovar-preview').slick({
   arrows: false,
   //dots: true,
   //centerMode: true,
-  focusOnSelect: true
+  focusOnSelect: true,
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        vertical: false,
+        verticalSwiping: false,
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        vertical: false,
+        verticalSwiping: false,
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 321,
+      settings: {
+        vertical: false,
+        verticalSwiping: false,
+        slidesToShow: 2,
+      }
+    },
+  ]
 });
 
 $('.expert-slider').slick({
@@ -76,6 +101,24 @@ $('.expert-slider').slick({
   centerPadding: true,
   nextArrow: '<button type="button" class="slick-next"><img src="img/slider-tovar/next.png" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev"><img src="img/slider-tovar/prev.png" alt=""></button>',
+  responsive: [
+    {
+      breakpoint: 1441,
+      settings: {
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '30px',
+      }
+    },
+    {
+      breakpoint: 426,
+      settings: {
+        centerMode: false,
+        arrows: false,
+        centerPadding: '0px',
+      }
+    },
+  ]
 });
 
 
@@ -88,6 +131,23 @@ $('.professional-slider').slick({
   nextArrow: '<button type="button" class="slick-next"><img src="img/slider-tovar/next.png" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev"><img src="img/slider-tovar/prev.png" alt=""></button>',
   cssEase: 'linear',
+    responsive: [
+    {
+      breakpoint: 426,
+      settings: {
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '0px',
+      }
+    },
+  ]
 })
 
 $('.random__inner').slick({
@@ -97,6 +157,20 @@ $('.random__inner').slick({
   nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.png" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
   cssEase: 'linear',
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 426,
+      settings: {
+        arrows: false,
+      }
+    },
+  ]
 });
 
 
@@ -108,6 +182,49 @@ $('.about-work__slider').slick({
   nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.png" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
   cssEase: 'linear',
+  responsive: [
+    {
+      breakpoint: 1441,
+      settings: {
+        slidesToShow: 3,
+        centerMode: true,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 2,
+        centerMode: false,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2,
+        //centerMode: true,
+        //centerPadding: '50px',
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 426,
+      settings: {
+        slidesToShow: 1,
+        //centerMode: true,
+        //centerPadding: '50px',
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+      }
+    },
+  ]
 })
 
 
@@ -125,5 +242,42 @@ $('.review-letters__slider').slick({
   arrows: true,
   nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.png" alt=""></button>',
   prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.png" alt=""></button>',
+    responsive: [
+    {
+      breakpoint: 1441,
+      settings: {
+        centerMode: false,
+        arrows: false,
+        centerPadding: '0px',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 426,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: 'true',
+      }
+    },
+  ]
 })
 /*осталось доработать слайдер в service.html*/
